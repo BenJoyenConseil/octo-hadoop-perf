@@ -13,4 +13,8 @@ Ensuite, une archive jar a été produite dans la racine du dossier hadoop-mr : 
 
 Utilisez votre cluster Hadoop avec la commande suivante :
 
-    hadoop jar wikipedia.jar
+    hadoop jar wikipedia.jar -date 20140625
+
+Une option est necessaire :
+
+   -date : precise la date à laquelle l'analyse commence (ex : 20140514) au format [yyyyMMdd].
